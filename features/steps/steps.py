@@ -1,4 +1,3 @@
-# file:features/steps/step_tutorial01.py
 # ----------------------------------------------------------------------------
 # STEPS:
 # ----------------------------------------------------------------------------
@@ -9,6 +8,9 @@ from behave import given, when, then
 def step_impl(context):
     pass
 
+@given('I am signed in with an existing account')
+def do_nothing(context):
+    pass
 
 @when('we implement a test')
 def step_impl(context):
