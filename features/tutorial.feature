@@ -1,5 +1,4 @@
-@MCA-3432
-@MYAIR-3844
+@FIT-120
 
 Feature: Showing off behave
 
@@ -12,35 +11,10 @@ Feature: Showing off behave
 
 Background:
   Given I am signed in with an existing account
-  
+
 @tutorial.S1
-@MCA-3432.1
-@MYAIR-3844.1
-@MCA-3787
-@MYAIR-4232
+@FIT-120
 @android @ios
-Scenario: Run a simple test
-  Given we have behave installed
-  When we implement a test
-  Then behave will test it for us!
-
-@tutorial.S2
-@MCA-3432.1
-@MYAIR-3844.1
-@MCA-3787
-@MYAIR-4232
-@ios_skip
-Scenario: Run a simple test
-  Given we have behave installed
-  When we implement a test
-  Then behave will test it for us!
-
-@tutorial.S3
-@MCA-3432.1
-@MYAIR-3844.1
-@MCA-3787
-@MYAIR-4232
-@ios @slow
 Scenario: Run a simple test
   Given we have behave installed
   When we implement a test
